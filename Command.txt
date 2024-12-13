@@ -7,3 +7,12 @@ echo > Info/InfoFile1
 echo > Info/InfoFile2
 git add Info/InfoFile1 Info/InfoFile2
 git commit -m "Add Info subfolder and files"
+
+To check the repository state, I used the `git status` command. This showed me the current state of my repository, including:
+- Files that have been modified but not staged for commit.
+- Untracked files (not added to version control).
+- Staged files ready for commit.
+
+The `git status` command helps ensure that all necessary changes are tracked before committing.
+
+From this step, I learned the importance of checking the repository state before committing changes. This ensures no necessary files are accidentally left out of the commit. Additionally, I better understand how to use `.gitignore` to exclude files and how to force add ignored files using the `-f` option.
