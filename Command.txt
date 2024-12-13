@@ -1,0 +1,9 @@
+echo Command.txt > .gitignore
+git add MyFile.txt
+git commit -m "Add MyFile.txt"
+
+mkdir Info
+echo > Info/InfoFile1
+echo > Info/InfoFile2
+git add Info/InfoFile1 Info/InfoFile2
+git commit -m "Add Info subfolder and files"
